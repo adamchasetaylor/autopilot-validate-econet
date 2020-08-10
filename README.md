@@ -1,10 +1,10 @@
 # autopilot-validate-econet
 
-1. Deploy Functions for "validate_email" and "validate_phone"
+1. Deploy Functions for "validate_email" and "validate_phone" (see the functions folder in this repo example code)
 
 https://www.twilio.com/console/functions/manage
 
-See example "validate_phone" Function I created for this use case here
+See example "validate_phone" Function for ideas on how to build other use cases (validating national id, validating addresses, etc)
 
 https://github.com/adamchasetaylor/autopilot-validate-econet
 
