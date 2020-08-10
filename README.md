@@ -16,6 +16,7 @@ https://www.twilio.com/console/autopilot/list
 
 https://www.twilio.com/console/autopilot/Econet/tasks
 
+```
 {
 	"actions": [
 		{
@@ -26,14 +27,15 @@ https://www.twilio.com/console/autopilot/Econet/tasks
 		}
 	]
 }
+```
 
-3. Add new tasks "collect-phone", "collect e-mail"
+4. Add new tasks "collect-phone", "collect e-mail"
 
 https://www.twilio.com/console/autopilot/Econet/tasks
 
 collect-phone
 
-
+```
 {
     "actions": [
         {
@@ -52,9 +54,11 @@ collect-phone
         }
     ]
 }
+```
 
 collect-email
 
+```
 {
     "actions": [
         {
@@ -73,3 +77,4 @@ collect-email
         }
     ]
 }
+```
