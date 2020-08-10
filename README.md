@@ -8,13 +8,16 @@ See example "validate_phone" Function for ideas on how to build other use cases 
 
 https://github.com/adamchasetaylor/autopilot-validate-econet
 
+2. Configure any required dependencies for your function (for this example their is a dependency of google-libphonenumber at version 3.2.10)
 
-2. Create a Bot called Econet from Scratch
+https://www.twilio.com/console/functions/configure
+
+3. Create a Bot called Econet from Scratch
 
 https://www.twilio.com/console/autopilot/list 
 
 
-3. Modify your "greeting" task to redirect to a collect_phone
+4. Modify your "greeting" task to redirect to a collect_phone
 
 https://www.twilio.com/console/autopilot/Econet/tasks
 
@@ -32,7 +35,7 @@ https://www.twilio.com/console/autopilot/Econet/tasks
 ```
 
 
-4. Add new tasks "collect-phone", "collect e-mail"
+5. Add new tasks "collect-phone", "collect e-mail"
 
 https://www.twilio.com/console/autopilot/Econet/tasks
 
