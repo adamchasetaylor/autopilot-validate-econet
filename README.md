@@ -8,9 +8,11 @@ See example "validate_phone" Function I created for this use case here
 
 https://github.com/adamchasetaylor/autopilot-validate-econet
 
+
 2. Create a Bot called Econet from Scratch
 
 https://www.twilio.com/console/autopilot/list 
+
 
 3. Modify your "greeting" task to redirect to a collect_phone
 
@@ -20,14 +22,15 @@ https://www.twilio.com/console/autopilot/Econet/tasks
 {
 	"actions": [
 		{
-			"say": "Hello"
+		    "say": "Hello"
 		},
 		{
-			"redirect": "task://collect_phone"
+		    "redirect": "task://collect_phone"
 		}
 	]
 }
 ```
+
 
 4. Add new tasks "collect-phone", "collect e-mail"
 
